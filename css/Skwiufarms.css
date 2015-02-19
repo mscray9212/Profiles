@@ -4,9 +4,12 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-bottom: 40px;
-    background-color: #2E962A;
-    color: #1F0303;
+		background: url("../images/Skwiu1.gif");
+		/*overflow: hidden;*/
+		background-size: 100% 100%;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	/*background-repeat: no repeat;*/
 }
 
 

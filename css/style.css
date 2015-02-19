@@ -39,7 +39,7 @@
 	}*/
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: lime;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -513,12 +513,11 @@
 			}
 
 			.image.thumb:hover:after {
-				background: url("images/overlay.png"),url("#");
+				background: url("images/overlay.png");
 				opacity: 1.0;
 			}
 
 			.image.thumb:hover:before {
-				background: url("images/overlay.png"), url("images/overlay.png");
 				opacity: 1.0;
 			}
 
@@ -1045,6 +1044,16 @@
 				margin-top: 0;
 				padding-top: 0;
 			}
+			
+/* Gif */
+
+	.gif-container {
+	<body style="background-color:green">
+ 		background-image: url("http://upload.wikimedia.org/wikipedia/commons/2/27/Forgard2-003.gif") center;
+  		background-size: cover;
+
+  		height: 100%;
+}
 
 /* Poptrox */
 	@-moz-keyframes spin { 0% { -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); -o-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); } 100% { -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); } }
