@@ -10,9 +10,9 @@
 /* Basic */
 
 	body {
-		background: url("../images/GeorgiaState.jpg");
+		background: url("../images/Ocean.jpg");
 		/*overflow: hidden;*/
-		background-size: 70% 100%;
+		background-size: auto 100%;
     	background-repeat: no-repeat;
     	background-position: right;
     	/*background-repeat: no repeat;*/
@@ -31,7 +31,7 @@
 			transition: none !important;
 		}
 	
-	/*.fill {
+	/*fill {
 		overflow: hidden;
 		background-size: cover;
 		background-position: center;
@@ -39,7 +39,7 @@
 	}*/
 
 	body, input, select, textarea {
-		color: lime;
+		/*color: white;*/
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -513,7 +513,7 @@
 			}
 
 			.image.thumb:hover:after {
-				background: url("images/overlay.png");
+				background: url("images/#");
 				opacity: 1.0;
 			}
 
